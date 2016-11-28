@@ -15,4 +15,7 @@
 Filetransmit_Android_csharp
 --
 该工程是一个利用TCP协议在安卓端和电脑端传输文件的工程，里面包含了两端的代码，双向传输
+USRP_Video_TXRX_stage4
+--
+这个工程里面使用GNU Radio在USRP之间进行视频的传输，有send和receive两端，其中每个文件夹下都有一个blks2和blks2guoxin文件夹，分别是发送以及接收端delivery阶段和placement阶段所用到的模块，两个模块内部的代码都已经自定义，已经不是软件自带的模块代码。首先运行placement，再运行delivery阶段，能够实现把视频异或之后再进行传输，具体参见Ali的Fundamental Limits of Caching这篇论文。
 
