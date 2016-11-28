@@ -12,4 +12,7 @@
 关于File Transmit的解释
 --
 `Java XOR`能够实现两个文件之间的拼接形成一个新的文件<br>
+Filetransmit_Android_csharp
+--
+该工程是一个利用TCP协议在安卓端和电脑端传输文件的工程，里面包含了两端的代码，双向传输
 
